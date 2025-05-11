@@ -10,6 +10,7 @@ func main() {
 	modSet := make(map[int]bool)
 
 	// 10회 입력받아 반복
+	// 10회 입력 받도록 주의
 	for i := 0; i < 10; i++ {
 		var n int
 		fmt.Scan(&n)
